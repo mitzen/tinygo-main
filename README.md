@@ -3,12 +3,11 @@ Ensure you have setup golang and tinygo
 
 Using tinygo, compile the code 
 
-tinygo build -o wasm.wasm -target wasm ./main.go
+tinygo build -o html/wasm.wasm -target wasm ./main.go
 
 Next execute run.go command :-
 
 go run run.go
-
 
 Then open up your browser and paste in the following 
 
